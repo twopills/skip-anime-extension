@@ -1,0 +1,18 @@
+{
+    "name": "Estensione fantastica per skippare le intro",
+    "description": "prova",
+    "version": "666",
+    "manifest_version": 3,
+    "host_permissions": ["http://*/*", "https://*/*"],
+    "permissions": ["activeTab", "scripting", "tabs", "storage"],
+    "action": {
+      "default_title": "Estensione fantastica per skippare le intro",
+      "default_popup": "hello.html",
+      "default_icon": {
+        "48": "/images/killua.png"
+      }
+    },
+    "background": {
+        "service_worker": "service_worker.js"
+    }
+  }
